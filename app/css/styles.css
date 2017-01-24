@@ -1,0 +1,17 @@
+//CSS Styling
+
+//Sets the width and height of the browser pop-up window
+//You need both the HTML and <body> selectors to set the size
+html {
+    width: 350px;
+    height: 300px;
+}
+
+body {
+    width: 350px;
+    height: 300px;
+}
+
+h1 {
+    color: red;
+}
