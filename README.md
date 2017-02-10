@@ -6,5 +6,12 @@ Here's how to change some of the default values:
 * When the extension icon is clicked, `index.html` is loaded  with `app.js`.
 * Change `img/logo.png` to an image with the same dimensions `256px X 256px` to get rid of my cartoon face.
 * There are no permissions declared in the `manifest.json` file. Check [Google's specs](https://developer.chrome.com/extensions/declare_permissions) to add your own.
-* To load the extension into Chrome for development, navigate to [chrome://extensions](chrome://extensions), enable Developer Mode, click "Load Unpacked Extension," and select the root directory for the extension project.
 * After you've finished development, follow [Google's instructions](https://developer.chrome.com/webstore/publish) if you'd like to deploy to the Chrome Webstore.
+
+# Loading an Unpacked Extension into Chrome
+
+* To load the extension into Chrome for development, navigate to [chrome://extensions](chrome://extensions), enable Developer Mode, click "Load Unpacked Extension," and select the root directory for the extension project.
+
+# More Resources
+* [Google's Guide](https://developer.chrome.com/extensions/getstarted)
+* [Christian Cantrell's "Building Your First Chrome Extension" Video](https://www.youtube.com/watch?v=pT-b2SpFIWo)
